@@ -1,0 +1,67 @@
+.profile-image{
+    position: relative;
+    height:250px;
+    width:250px;
+    
+    top:100px;
+    left:50px;
+}
+.profile-content{
+    position:relative;
+    height:470px;
+    width:850px;
+    background: #f06292;
+    top:100px;
+    left:100px;
+    opacity:0.9;
+    color:black;
+    border-radius: 10px;
+}
+.left{
+    top:25px;
+    position:relative;
+    left:5px;
+    margin:15px;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    top:-40px;
+    position:relative;
+    left:430px;
+    width:425px;
+    margin:15px;
+}
+label{
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 6px;
+    text-align: right;
+    width: 150px;
+    vertical-align: top;
+    font-size: 20px;
+    transform: translate(0px,-10px);
+}
+
+input{
+    
+    position:relative;
+    left:170px;
+    top:-20px;
+    background: none;
+    border:none;
+    width:200px;
+    color:black;
+    font-size: 20px;
+    font-size: 20px;
+    transform: translate(0px,5px);
+}
+.profile-content button{
+    position:relative;
+    left:775px;
+    top:50px;
+    width:70px;
+    height:30px;
+    background: #f06292;
+    border: none;
+}

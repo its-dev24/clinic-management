@@ -1,0 +1,74 @@
+body{
+    position:relative;
+    background-color: #b0bec5;
+   
+    
+}
+.feedbackmain{
+    border-radius: 15px;
+    position:relative;
+    top:200px;
+    left:100px;
+    display:flex;
+    justify-content: center;
+    
+    
+
+}
+.feedbackmain h2{
+    position:relative;
+    top:-50px;
+    left:50px;
+
+}
+.fbinput,.fbbutton{
+    position:relative;
+    left:-80px;
+}
+
+.fbinput textarea{
+    width:700px;
+    height:250px;
+}
+
+.fb_tab{
+    border-right: 5px solid aqua;
+    
+}
+.fb_tab a{
+    color:aqua;
+}
+.detailslink:hover{
+    
+    border-right: 5px solid aqua;
+}
+.detailslink a:hover{
+    color:aqua;
+}
+.icon2{
+    position:relative;
+    top:20px;
+    padding-top: 0px;;
+
+}
+.icon2 img{
+    height:15px;
+}
+textarea{
+    background-color: #4fc3f7;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: medium;
+}
+.fbbutton{
+    position: relative;
+    left: 500px;
+    top:20px;
+}
+.fbbutton button{
+    width: 100px;
+    height:40px;
+    background:#4fc3f7 ;
+}

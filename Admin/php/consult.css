@@ -1,0 +1,130 @@
+.p-details{
+    position:relative;
+    width:1074px;
+    height:400px;
+    background: chartreuse;
+    top:70px;
+}
+.p-details label{
+    margin-left: 100px;
+}
+.profile-content{
+    position:relative;
+    height:225px;
+    width:700px;
+    background: white;
+    top:100px;
+    left:100px;
+    color:black;
+    
+    font-size:large;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.left{
+    top:25px;
+    position:relative;
+    left:5px;
+    margin:15px;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    top:-40px;
+    position:relative;
+    left:430px;
+    width:425px;
+    margin:15px;
+}
+label{
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: right;
+    width: 150px;
+    vertical-align: top;
+    margin-bottom: -5px;
+}
+
+input{
+    
+    position:relative;
+    left:170px;
+    top:-24px;
+    background: none;
+    border:none;
+    width:200px;
+    color:black;
+    font-size: large;
+}
+.prec-table{
+    
+    position: relative;
+    width:700px;
+    height:300px;
+    top:358px;
+    left:-600px;
+    background-color:white;
+  
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+table{
+    background-color: white;
+    width:95%;
+    
+    position: absolute;
+    top:15px;
+    left:30px;
+    border: 0px;
+    border-radius: 5px;;
+}
+th{
+    height:30px;
+    background-color: black;
+    color:white;
+}
+td{
+    text-align: center;
+    color: black;
+    background-color: white;
+    height:30px;
+    opacity:1;
+    
+}
+td a{
+    text-decoration: none;
+    color: #f06292;
+}
+.text{
+    position: absolute;
+    height:557px;
+    width:400px;
+    background: white;
+    top: 98px;
+    left:1100px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.text h6{
+    
+    position:relative;
+    top:30px;
+    font-size: x-large;
+    left:30px;
+}
+.text textarea{
+    position:relative;
+    top:50px;
+    left:10px;
+    width:95%;
+    height:75%;
+}
+.text button{
+    position: absolute;
+    top:500px;
+    left:300px;
+    width:70px;
+    height:30px;
+}

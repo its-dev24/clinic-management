@@ -1,0 +1,35 @@
+body{
+    background-color: #b0bec5;
+}
+.about-main{
+    position: relative;
+    width:1160px;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4fc3f7;
+    top:130px;
+    left:70px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.about-image{
+    background: url('images/about_us.jpg');
+    background-size:contain;
+    height:150px;
+    width:100%;
+    z-index: 100;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.about-text{
+    background-color: none;
+    height:350;
+    width:100%;
+    opacity: 0.9;
+    padding: 10px;
+}
+.about-text p{
+    padding: 10px;
+    font-size: large;
+}
